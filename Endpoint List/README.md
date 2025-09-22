@@ -44,6 +44,9 @@ To authenticate the request to this endpoint, you need `X-Fingerprint` and `X-Su
 
 ### Response:
 <img width="1048" height="74" alt="image" src="https://github.com/user-attachments/assets/9701b9be-a71e-4f6f-bdac-750dbbb4757e" />  <br>
-**Unfortunately, Discord is very aggressive with CAPTCHAs, instead of attempting bot detection, they push a CAPTCHA for every registration.**
-Until hCaptcha Enterprise is reverse engineered and a solver is released, automating registration on Discord will stay impossible. <br><br>
-I was planning to reverse engineer their private mobile API on their mobile application as I believed there would be less or no CAPTCHAs there, but they use the same method over there. ❌
+**Unfortunately, Discord is very aggressive with CAPTCHAs, instead of attempting bot detection, they push a CAPTCHA for every registration.
+I was planning to reverse engineer their private mobile API on their mobile application as I believed there would be less or no CAPTCHAs there, but they use the same method over there.** ❌
+
+# 
+If a hCaptcha solver is ever released for hCaptcha Enterprise, `a9b5fb07-92ff-493f-86fe-352a2803b3df` is Discord's sitekey, which you can use for solving the CAPTCHAs and bypassing them.
+
