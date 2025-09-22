@@ -10,19 +10,10 @@ Join me on my Discord reverse engineering journey, where I break down every part
 - [Signing Requests](https://github.com/AdamBankz/discord-reversed/blob/main/Signing%20Requests/README.md)
     - [X-Fingerprint](https://github.com/AdamBankz/discord-reversed/blob/main/Signing%20Requests/X-Fingerprint/README.md)
     - [X-Super-Properties](https://github.com/AdamBankz/discord-reversed/blob/main/Signing%20Requests/X-Super-Properties/README.md)
-    - Cloudflare Tokens [N/A]
 - [List of working Endpoints](https://github.com/AdamBankz/discord-reversed/blob/main/Endpoint%20List/README.md)
 
 
 
-
-
-Useful Endpoints
---- 
-```
-https://discord.com/api/v9/unique-username/username-suggestions-unauthed?global_name=username - Checks username availability.
-https://discord.com/api/v9/auth/register - Registering an account. Call > Captcha > Call again
-```
 
 Useful Things
 ---
