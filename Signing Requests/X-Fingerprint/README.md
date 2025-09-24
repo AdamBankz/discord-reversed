@@ -1,4 +1,6 @@
 ```py
+import uuid
+
 def x_super_properties():
     props = {
         "os": "Windows",
@@ -25,3 +27,4 @@ def x_super_properties():
     compact = json.dumps(props, separators=(",", ":")).encode("utf-8")
     return base64.b64encode(compact).decode("utf-8")
 ```
+
