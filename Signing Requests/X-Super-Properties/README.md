@@ -1,5 +1,5 @@
-# `x-super-properties`
-**The code below generates a working `x_fingerprint` header that is used to validate requests to Discord's endpoint.** <br>
+# `X-Super-Properties`
+The code below generates a working `x_fingerprint` header that is used to validate requests to Discord's endpoint. <br>
 However, you need a `x_super_properties` header to authenticate this request. `x_super_properties` has been covered [here.](https://github.com/AdamBankz/discord-reversed/blob/main/Signing%20Requests/X-Fingerprint/README.md)
 ```py
 def x_fingerprint(x_super_properties):
@@ -27,5 +27,6 @@ def x_fingerprint(x_super_properties):
     resp = requests.get(url, headers=headers, timeout=10)
     return resp.json().get("fingerprint", "")
 ```
+
 
 
