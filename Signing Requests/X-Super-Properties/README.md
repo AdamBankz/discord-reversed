@@ -15,7 +15,7 @@ def x_fingerprint(x_super_properties):
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Site": "same-origin",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
-        "X-Context-Properties": "eyJsb2NhdGlvbiI6IlJlZ2lzdGVyIn0=",
+        "X-Context-Properties": "eyJsb2NhdGlvbiI6IlJlZ2lzdGVyIn0=", # {"location":"Register"} in base64
         "X-Debug-Options": "bugReporterEnabled",
         "X-Discord-Locale": "en-GB",
         "X-Discord-Timezone": "Europe/Amsterdam",
@@ -24,3 +24,4 @@ def x_fingerprint(x_super_properties):
     resp = requests.get(url, headers=headers, timeout=10)
     return resp.json().get("fingerprint", "")
 ```
+
